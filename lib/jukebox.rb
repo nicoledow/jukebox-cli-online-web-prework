@@ -68,4 +68,9 @@ def run
   end
 end
 =end
-#need to rework using case statment or loop?????
+
+def run
+  help
+  puts "Please enter a command:"
+  
+end
