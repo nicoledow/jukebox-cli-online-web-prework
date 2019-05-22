@@ -67,7 +67,7 @@ def run
 end
 =end
 
-def run
+def run(songs)
   help
   puts "Please enter a command:"
   user_input = gets.downcase.chomp
