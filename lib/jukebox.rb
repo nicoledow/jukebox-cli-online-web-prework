@@ -75,6 +75,7 @@ def run
   user_input = gets.chomp
   
   case user_input
-  when 1..songs.size
+  when 1..songs.length
+  when 
   
 end
