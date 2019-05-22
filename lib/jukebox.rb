@@ -72,7 +72,7 @@ end
 def run
   help
   puts "Please enter a command:"
-  user_input = gets.chomp
+  user_input = gets.downcase.chomp
   
   case user_input
   when "list"
