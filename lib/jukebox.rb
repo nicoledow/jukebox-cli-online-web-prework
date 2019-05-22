@@ -70,6 +70,7 @@ end
 =end
 
 def run
+  help
   puts "Please enter a command:"
   user_input = gets.downcase.chomp
   
