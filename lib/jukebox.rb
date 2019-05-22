@@ -74,6 +74,7 @@ def run
   puts "Please enter a command:"
   user_input = gets.chomp
   
-  case command
+  case user_input
+  when 1..songs.size
   
 end
