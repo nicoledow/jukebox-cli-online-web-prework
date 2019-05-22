@@ -75,7 +75,13 @@ def run
   user_input = gets.chomp
   
   case user_input
-  when 1..songs.length
-  when 
-  
+  when "list"
+    list(songs)
+  when "play"
+    play(songs)
+  when "help"
+    help
+  when "exit"
+    exit_jukebox
+  end
 end
